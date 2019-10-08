@@ -15,4 +15,4 @@ ENV CHROME_BIN /usr/bin/chromium-browser
 ENV LIGHTHOUSE_CHROMIUM_PATH /usr/bin/chromium-browser
 ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD true
 
-RUN yarn add @adonisjs/cli
+RUN yarn global add @adonisjs/cli
